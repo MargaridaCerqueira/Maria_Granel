@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hidden {
+  opacity: 0;
+  height: 0px;
+  width: 0px;
+}

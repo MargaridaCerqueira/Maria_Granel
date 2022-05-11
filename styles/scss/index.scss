@@ -1,0 +1,191 @@
+@import "variables.scss";
+@import "reset.scss";
+
+body {
+  background-color: $bg;
+  color: $green;
+  font-family: noto-sans-condensed, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.primary-title {
+  font-family: noto-serif-condensed, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.secondary-title {
+  font-family: noto-serif-condensed, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+}
+
+/* Cabeçalho */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.logo-container {
+  h1 {
+    font-size: 0;
+  }
+  .logo {
+    width: 100px;
+  }
+}
+.menu-container {
+  ul li {
+    display: inline;
+    padding: 10px;
+    a {
+      font-size: 14px;
+      text-transform: uppercase;
+      color: $green;
+    }
+  }
+}
+
+/* Conheça a maria granel - linkar 'sobre nós' */
+.container-aboutus {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.aboutus-item-left {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.aboutus-item-left h4 {
+  font-family: noto-serif-condensed, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-top: 85px;
+  margin-bottom: 0;
+}
+.aboutus-item-left p {
+  font-size: 24px;
+  margin: 0;
+}
+.aboutus-item-right img {
+  width: 800px;
+}
+
+/* Falta fazer o carousel - linkar imgs */
+.newproducts-container h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+.carousel-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+.carousel-column {
+  padding: 5px;
+}
+.carousel-column img {
+  width: 400px;
+  height: 400px;
+}
+
+/* Novidades - linkar imgs */
+.news-container {
+  margin-bottom: 80px;
+}
+.news-container h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+.news-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+.news-column {
+  padding: 5px;
+}
+.news-column img {
+  width: 400px;
+  height: 400px;
+}
+
+/* Rodapé */
+footer {
+  background-color: $green;
+  color: $bg;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer-right a {
+  color: $bg;
+}
+.newsletter-email {
+  padding: 8px;
+  background-color: $green;
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  border-color: $bg;
+  font: inherit;
+}
+/* alinhar botão */
+.newsletter-button {
+  border-radius: 30%;
+  background-color: $bg;
+  color: $green;
+  padding: 8px;
+  margin-left: 20px;
+  font: inherit;
+}
+.redes-sociais i {
+  font-size: 18px;
+  padding: 5px;
+}
+.footer-bottom {
+  width: fit-content;
+}
+.footer-bottom p {
+  font-size: 12px;
+}
+.reclamaçoes {
+  width: 100px;
+  padding-top: 10px;
+}
+
+/* página politica privacidade */
+.policy-index {
+  font-family: noto-sans-condensed, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+}
+.policy-main h3 {
+  font-family: noto-sans-condensed, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+}
+.policy-main p {
+  font-family: noto-sans-condensed, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+}
