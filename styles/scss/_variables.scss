@@ -1,6 +1,21 @@
 //colors
 $bg: #f8f3e9;
-$green: #464d33;
+$green: #5f6845;
 $light-green: #d9eccf;
-$brand-color: #e47e3e;
-$ligh-orange: #fcd3c3;
+$brand: #e67d3c;
+$light-orange: #fcd3c3;
+
+//fonts
+$heading-font: "noto-serif-condensed", serif;
+$body-font: "noto-sans-condensed", sans-serif;
+$big: 32px;
+$medium: 20px;
+$small: 16px;
+$regular: 500;
+$semibold: 600;
+$bold: 700;
+
+//responsive
+$desktop: 1280px;
+$tablet: 768px;
+$mobile: 576px;

@@ -1,0 +1,64 @@
+.login-bg {
+  display: flex;
+  align-items: center;
+  background: $bg;
+  background-image: url(/assets/img/login.bg.1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.login {
+  position: relative;
+  left: 80px;
+  top: 80px;
+  width: 500px;
+  padding: 50px 100px;
+  background: $bg;
+  border-top: 10px solid $green;
+  border-bottom: 10px solid $green;
+  box-shadow: -9px 12px 13px 2px rgb(0 0 0 / 20%);
+}
+
+.login-title {
+  text-align: center;
+  color: $green;
+  margin-bottom: 30px;
+}
+
+.login-input {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $green;
+  background-color: $bg;
+  padding: 6px 12px;
+  border: 1px solid $green;
+  border-radius: 6px;
+  font-family: $body-font;
+}
+.login-input:focus {
+  color: $green;
+  outline: 0;
+  box-shadow: 0 0 0 2px rgb(0 0 0 / 15%);
+}
+
+.login-group {
+  margin-bottom: 20px;
+
+  label {
+    color: $green;
+  }
+}
+
+.login-group-last {
+  margin-bottom: 30px;
+
+  a {
+    color: grey;
+  }
+}
+
+.text-right {
+  text-align: right;
+}

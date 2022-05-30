@@ -1,0 +1,95 @@
+//PRODUCT DETAIL
+.main-product-content {
+  position: relative;
+  top: 120px;
+}
+.productdisplay-container {
+  gap: 30px;
+}
+.productdisplay-img {
+  flex: 1;
+
+  img {
+    max-width: 300px;
+  }
+}
+
+.productdisplay-info {
+  flex: 2;
+  .productdisplay-title {
+    color: $green;
+    padding-top: 0;
+    padding-bottom: 10px;
+  }
+  .productdisplay-price {
+    color: $green;
+  }
+}
+
+.productdisplay-btn {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+//PRODUCT DETAILS ACCORDION
+.productdisplay-details {
+  padding-top: 40px;
+  margin-bottom: 20px;
+  font-family: $heading-font;
+  font-size: $small;
+  font-weight: $semibold;
+  color: $green;
+  text-transform: uppercase;
+}
+
+.accordion-line {
+  position: relative;
+  padding-bottom: 10px;
+
+  &::after {
+    content: " ";
+    border: 1px solid $light-orange;
+    position: absolute;
+    top: 100%;
+    right: 50%;
+    width: 100%;
+    transform: translateX(50%);
+    margin-top: -10px;
+  }
+}
+
+//PRODUCT ROW
+.product-row-title {
+  display: flex;
+  align-items: center;
+}
+
+.card-row {
+  justify-content: space-evenly;
+
+  .card {
+    width: 20%;
+  }
+}
+
+.thumbnail img {
+  width: 100%;
+  border-radius: 20%;
+}
+
+.card-content {
+  padding: 10px;
+  color: $green;
+  span {
+    font-size: $small;
+  }
+  h2 {
+    font-family: $heading-font;
+    font-size: $small;
+  }
+}
+
+.add {
+  margin: 12px;
+}

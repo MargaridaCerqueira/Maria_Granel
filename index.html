@@ -3,15 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- viewport - -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- meta tags for SEO and social sharing -->
-    <title>MariaGranel</title>
+    <title>Maria Granel</title>
 
     <!-- import font-->
     <link rel="stylesheet" href="https://use.typekit.net/mqf2vzz.css" />
 
-    <!-- import font-->
-    <link rel="stylesheet" href="https://use.typekit.net/mqf2vzz.css" />
+    <!-- import fontawesome icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
 
     <!-- import the webpage’s stylesheet -->
     <link href="styles/css/style.css" rel="stylesheet" />
@@ -32,150 +36,155 @@
   </head>
 
   <body>
-    <!-- Cabeçalho - mudar o logo para svg? menu em mobile com icon  -->
-    <header class="container header-container">
-      <div class="logo-container">
-        <h1 class="logo">
-          <a href="index.html" title="Maria Granel">
-            <img src="img/logo.png" alt="logo Maria Granel" />
-            <span class="hidden">Maria Granel</span>
-          </a>
-        </h1>
+    <!-- MAIN HEADER  -->
+    <header class="main-header">
+      <div class="header-logo">
+        <a href="index.html" title="Maria Granel">
+          <img src="/assets/img/header-logo.png" alt="Logo Maria Granel" />
+        </a>
       </div>
-      <div class="menu-container">
-        <nav class="header-navbar">
-          <ul>
-            <li><a href="#"> Loja </a></li>
-            <li><a href="#"> Workshops </a></li>
-            <li><a href="#"> Podcast </a></li>
-            <li><a href="#"> Inicar sessão </a></li>
-            <li><a href="#"> Pesquisar </a></li>
-            <li>
-              <img src="img/shopbag.svg" alt="shopbag" / width="24px"
-              height="30px">
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <nav class="header-navbar">
+        <ul class="header-links">
+          <li><a href="#loja"> Loja </a></li>
+          <li><a href="#workshops"> Workshops </a></li>
+          <li><a href="#podcasts"> Podcast </a></li>
+          <li><a href="login.html" target="_blank"> Inicar sessão </a></li>
+          <li><a href="#pesquisar"> Pesquisar </a></li>
+          <li>
+            <a href="#">
+              <i class="cart-icon fa-thin fa-basket-shopping-simple"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header-line header-line-top"></div>
+      <div class="header-line header-line-bottom"></div>
     </header>
 
-    <!-- linkar imgs -->
-    <section class="container container-aboutus">
-      <div class="aboutus-item-left">
-        <h4>
-          Conheça a<br />
-          Maria Granel llll<br />
-        </h4>
-        <p>Sobre nós</p>
-      </div>
-      <div class="aboutus-item-right">
-        <img src="img/mgranel-1.jpeg" alt="loja" />
-      </div>
-    </section>
-
-    <!-- carousel de imagens -->
-    <section class="container newproducts-container">
-      <h2 class="primary-title">Produtos novos</h2>
-      <div class="carousel-img">
-        <div class="carousel-row">
-          <div class="carousel-column">
-            <img src="img/pastadentifrica.jpg" alt="Pasta dentifrica" />
-          </div>
-          <div class="carousel-column">
-            <img src="img/oleo.jpg" alt="Óleo desmaquilhante" />
-          </div>
-          <div class="carousel-column">
-            <img src="img/kitbanho.jpg" alt="Kit banho relaxante" />
-          </div>
-          <div class="carousel-column">
-            <img src="img/onthego.jpg" alt="Kit on the go" />
-          </div>
-          <div class="carousel-column">
-            <img src="img/garrafa.jpg" alt="Garrafa reutilizável" />
+    <!-- START OF THE PAGE CONTENT -->
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+        <div class="hero-img">
+          <div class="hero-text">
+            <h1>A primeira zero waste store portuguesa</h1>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- novidades - workshops e podcast - linkar imgs -->
-    <section class="news-container">
-      <h2 class="primary-title">Novidades</h2>
-      <div class="news-img">
-        <div class="news-row">
-          <div class="news-column">
-            <img src="img/podcastep31.jpg" alt="Podcast Ep31" />
+      <!-- NEW PRODUCTS -->
+      <section class="newproduct padding-100">
+        <h1 class="title-primary">Produtos novos</h1>
+        <div class="items js-items">
+          <div class="item item1">
+            <img
+              class="thumbnail"
+              src="/assets/img/champo_cabelo_normal.jpg"
+              alt="Champô sólido para cabelo normal - Greensense"
+            />
           </div>
-          <div class="news-column">
-            <img src="img/podcastep32.jpg" alt="Podcast Ep32" />
+          <div class="item item2">
+            <img
+              class="thumbnail"
+              src="/assets/img/champo_cabelo_seco.jpg"
+              alt="Champô sólido para cabelo seco - Greensense"
+            />
           </div>
-          <div class="news-column">
-            <img src="img/workshop.jpg" alt="Workshop" />
+          <div class="item item3">
+            <img
+              class="thumbnail"
+              src="/assets/img/champo_cabelo_oleoso.jpg"
+              alt="Champô sólido para cabelo oleoso - Greensense"
+            />
+          </div>
+          <div class="item item4">
+            <img
+              class="thumbnail"
+              src="/assets/img/champo_criança.jpg"
+              alt="Champô sólido para crianças - Greensense"
+            />
+          </div>
+          <div class="item item5">
+            <img
+              class="thumbnail"
+              src="/assets/img/oleo_amendoa.jpg"
+              alt="Óleo de amêndoas doces"
+            />
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!--Rodapé-->
-    <footer>
-      <div class="container">
-        <section class="footer-container">
-          <div class="footer-left">
-            <h3 class="secondary-title">Subscreva a newsletter</h3>
-            <div class="newsletter">
-              <input
-                required
-                class="newsletter-email"
-                type="email"
-                placeholder="E-mail"
+      <!-- PODCAST&WORKSHOP -->
+      <section class="container row lastnews-container">
+        <div class="col-3">
+          <h2 class="title-primary lastnews-title">Podcast & worksops</h2>
+          <p>Mantém-te a par das novidades</p>
+        </div>
+        <div class="col-3">
+          <img src="/assets/img/podcastep31.jpg" alt="Podcast Ep31" />
+        </div>
+        <div class="col-3">
+          <img src="/assets/img/podcastep32.jpg" alt="Podcast Ep32" />
+        </div>
+        <div class="col-3">
+          <img src="/assets/img/workshop.jpg" alt="Workshop" />
+        </div>
+      </section>
+    </main>
+
+    <!--MAIN FOOTER -->
+    <footer class="main-footer">
+      <div class="footer-container">
+        <div class="footer-col">
+          <h5 class="subtitle">Subscreve a newsletter</h5>
+          <div class="newsletter">
+            <input
+              required
+              class="newsletter-email"
+              type="email"
+              placeholder="E-mail"
+            />
+            <input class="btn btn-newsletter" type="submit" value="Submeter" />
+          </div>
+          <h5 class="subtitle">segue-nos</h5>
+          <div class="social-icons">
+            <i class="fa-brands fa-facebook-square"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5 class="subtitle">Maria Granel</h5>
+          <ul>
+            <li>Lojas</li>
+            <li>Sobre nós</li>
+          </ul>
+          <h5 class="subtitle">Contactos</h5>
+          <ul>
+            <li>211 351 896 Alvalade</li>
+            <li>214 056 077 Campo de Ourique / Loja Online</li>
+            <li>geral@mariagranel.com</li>
+            <li>loja@mariagranel.com</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5 class="subtitle">Ajuda</h5>
+          <ul>
+            <li>FAQs</li>
+            <li>Termos e Condições</li>
+            <li>
+              <a href="politicadeprivacidade.html" target="_blank"
+                >Política de Privacidade</a
+              >
+            </li>
+            <a href="https://www.livroreclamacoes.pt/Inicio/" target="_blank">
+              <img
+                class="legal"
+                src="img/livrodereclamacoes.png"
+                alt="Livro de reclamações"
               />
-              <input class="newsletter-button" type="submit" value="Submeter" />
-            </div>
-            <h3 class="secondary-title">Siga-nos</h3>
-            <div class="redes-sociais">
-              <i class="fa-brands fa-facebook-square"></i>
-              <i class="fa-brands fa-instagram"></i>
-              <i class="fa-brands fa-youtube"></i>
-            </div>
-          </div>
-          <div class="footer-center">
-            <h3 class="secondary-title">Maria Granel</h3>
-            <ul>
-              <li>Lojas</li>
-              <li>Sobre nós</li>
-            </ul>
-            <h3 class="secondary-title">Contactos</h3>
-            <ul>
-              <li>211 351 896 Alvalade</li>
-              <li>214 056 077 Campo de Ourique / Loja Online</li>
-              <li>geral@mariagranel.com</li>
-              <li>loja@mariagranel.com</li>
-            </ul>
-          </div>
-          <div class="footer-right">
-            <h3 class="secondary-title">Ajuda</h3>
-            <ul>
-              <li>FAQs</li>
-              <li>Termos e Condições</li>
-              <li>
-                <a href="politicadeprivacidade.html" target="_blank"
-                  >Política de Privacidade</a
-                >
-              </li>
-              <a href="https://www.livroreclamacoes.pt/Inicio/" target="_blank">
-                <img
-                  class="reclamaçoes"
-                  src="img/livrodereclamacoes.png"
-                  alt="Livro de reclamações"
-                />
-              </a>
-            </ul>
-          </div>
-        </section>
-        <div class="footer-bottom">
-          <p>
-            Direitos de autor @2022 Margarida Cerqueira. Todos os direitos
-            reservados.
-          </p>
+            </a>
+          </ul>
         </div>
       </div>
     </footer>

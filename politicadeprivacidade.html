@@ -3,15 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- viewport - -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- meta tags for SEO and social sharing -->
     <title>Política de Privacidade</title>
-    <link href="estilo.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://use.typekit.net/mqf2vzz.css" />
-    <script
-      src="https://kit.fontawesome.com/19cd43eee4.js"
-      crossorigin="anonymous"
-    ></script>
 
+    <!-- import font-->
+    <link rel="stylesheet" href="https://use.typekit.net/mqf2vzz.css" />
+
+    <!-- import fontawesome icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+    <!-- import the webpage’s stylesheet -->
+    <link href="styles/css/style.css" rel="stylesheet" />
+
+    <!-- Maria Granel icon -->
     <!-- prettier-ignore -->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
     <!-- prettier-ignore -->
@@ -24,571 +33,581 @@
     <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5" />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
-    <!-- prettier-ignore -->
-    <meta property="og:title" content="Mercearia bio a granel e primeira zero waste store portuguesa" />
-    <!-- prettier-ignore -->
-    <meta property="og:type" content="website" />
-    <!-- prettier-ignore -->
-    <meta property="og:url" content="https://margaridacerqueira.pt/" />
-    <!-- prettier-ignore -->
-    <meta property="og:image" content="logo_branco.png" />
   </head>
-
   <body>
-    <!-- Cabeçalho com logo e menu de navegação -->
-    <header class="container">
-      <div class="brand">
-        <h1 class="logo">
-          <a href="index.html" title="Maria Granel">
-            <img src="img/logo.png" alt="logo" />
-            <span class="hidden">Maria Granel</span>
-          </a>
-        </h1>
+    <!-- MAIN HEADER  -->
+    <header class="main-header">
+      <div class="header-logo">
+        <a href="index.html" title="Maria Granel">
+          <img src="/assets/img/header-logo.png" alt="Logo Maria Granel" />
+        </a>
       </div>
-      <div class="menu">
-        <nav class="right-nav">
-          <ul>
-            <li><a href="#"> Loja </a></li>
-            <li><a href="#"> Workshops </a></li>
-            <li><a href="#"> Podcast </a></li>
-            <li><a href="#"> Inicar sessão </a></li>
-            <li><a href="#"> Pesquisar </a></li>
-            <li>
-              <img src="img/shopbag.svg" alt="shopbag" / width="24px"
-              height="30px">
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <nav class="header-navbar">
+        <ul class="header-links">
+          <li><a href="#loja"> Loja </a></li>
+          <li><a href="#workshops"> Workshops </a></li>
+          <li><a href="#podcasts"> Podcast </a></li>
+          <li><a href="login.html" target="_blank"> Inicar sessão </a></li>
+          <li><a href="#pesquisar"> Pesquisar </a></li>
+          <li>
+            <a href="#">
+              <i class="cart-icon fa-thin fa-basket-shopping-simple"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header-line header-line-top"></div>
+      <div class="header-line header-line-bottom"></div>
     </header>
+    <main>
+      <div class="container privacy-policy padding-100">
+        <h5 class="privacy-policy-title">Política de Privacidade</h5>
+        <div class="privacy-policy-index">
+          <ol>
+            <li><a href="#1">Introdução</a></li>
+            <li><a href="#2">Glossário</a></li>
+            <li>
+              <a href="#3"
+                >Quem é o responsável pelo tratamento dos seus dados</a
+              >
+            </li>
+            <li>
+              <a href="#4"
+                >Que dados recolhemos, como os utilizamos e com que
+                fundamento</a
+              >
+            </li>
+            <li><a href="#5">Cookies</a></li>
+            <li><a href="#6">Google Analytics</a></li>
+            <li>
+              <a href="#7">Quem são os destinatários dos seus Dados Pessoais</a>
+            </li>
+            <li><a href="#8">Segurança</a></li>
+            <li><a href="#9">Quais são os seus direitos</a></li>
+            <li>
+              <a href="#10">Por quanto tempo armazenamos os seus dados</a>
+            </li>
+            <li><a href="#11">Garantias</a></li>
+            <li>
+              <a href="#12">
+                Quem é o responsável pelo Tratamento dos seus Dados Pessoais</a
+              >
+            </li>
+          </ol>
+        </div>
 
-    <div class="container policy">
-      <h2 class="primary-title">Política de Privacidade</h2>
-
-      <div class="policy-index">
-        <ol>
-          <li>Introdução</li>
-          <li>Glossário</li>
-          <li>Quem é o responsável pelo tratamento dos seus dados</li>
-          <li>Que dados recolhemos, como os utilizamos e com que fundamento</li>
-          <li>Cookies</li>
-          <li>Google Analytics</li>
-          <li>Quem são os destinatários dos seus Dados Pessoais</li>
-          <li>Segurança</li>
-          <li>Quais são os seus direitos</li>
-          <li>Por quanto tempo armazenamos os seus dados</li>
-          <li>Garantias</li>
-        </ol>
-      </div>
-
-      <div class="policy-main">
-        <h3 class="1">1. Introdução</h3>
-        <p>
-          A <b> BIOGRANEL LDA </b> (doravante designada apenas por
-          <b>Maria Granel</b>) acredita veementemente na protecção da
-          confidencialidade e na segurança dos Dados Pessoais das pessoas com
-          quem se relaciona no exercício da sua actividade. A Maria Granel
-          manifesta o seu firme compromisso em cumprir a legislação em vigor a
-          cada momento e em tratar os Dados Pessoais em conformidade com a
-          presente Política de Privacidade. <br />
-          <b>Os Dados Pessoais</b> específicos que serão tratados e a forma como
-          vão ser utilizados dependem em grande medida dos serviços por si
-          solicitados e consigo acordados. A presente
-          <b> Política de Privacidade</b> aplica-se aos dados pessoais dos/as
-          nossos/as <b>clientes</b>, <b>utilizadores/as</b> do nosso website,
-          <b>fornecedores</b> e <b>candidatos/as</b> sempre que estes sejam
-          pessoas singulares. <br />
-          A Maria Granel respeita a privacidade das pessoas com quem se
-          relaciona no exercício da sua atividade e protege os seus Dados
-          Pessoais. A maior parte do website www.mariagranel.com pode ser
-          navegada sem recurso à partilha de qualquer informação por parte do/a
-          Utilizador(a). Este documento informa-o/a da utilização que a Maria
-          Granel faz dos seus Dados Pessoais sempre que esta for necessária para
-          disponibilizar os seus serviços.<br />
-          O website www.mariagranel.com poderá conter, ocasionalmente, ligações,
-          banners ou outras ligações de hipertexto para websites e serviços de
-          outras sociedades, que têm as suas próprias políticas de privacidade,
-          e/ou serviços prestados por terceiros instalados no seu dispositivo
-          podem permitir o acesso a informação constante do mesmo. Recomendamos
-          aos/às utilizadores/as do nosso website que leiam atentamente as
-          políticas de privacidade de tais terceiros antes de submeter quaisquer
-          Dados Pessoais a esses websites. <br />
-          A Maria Granel não tem qualquer controlo sobre o conteúdo desses
-          websites, pelo que não é responsável pelo conteúdo das políticas de
-          privacidade desses terceiros nem pelo tratamento que dos seus Dados
-          Pessoais é feito pelos mesmos. <br />
-          A Maria Granel reserva-se o direito de modificar a Política de
-          Privacidade em função de novas exigências legais e/ou regulamentares,
-          por motivos de segurança ou com a finalidade de adaptar a referida
-          Política de Privacidade às instruções das autoridades de controlo em
-          matéria de protecção de dados. <br />
-          A presente Política de Privacidade aplica-se a qualquer utilização do
-          website www.mariagranel.com e a qualquer transacção comercial
-          realizada no mesmo. O/A utilizador/a e/ou cliente deve consultar,
-          adicionalmente, os Termos e Condições desse website. <br />
-          No momento do seu registo no website www.mariagranel.com há informação
-          nele constante que poderá ser transmitida. Essa transmissão decorre
-          dos serviços por si contratada com terceiros. Recomendamos que leia
-          atentamente as políticas de privacidade de tais terceiros. A Maria
-          Granel não é responsável pelas práticas ou conteúdos das políticas de
-          privacidade desses terceiros. <br />
-          Sempre que for introduzida qualquer alteração na Política de
-          Privacidade, o/a utilizador/a será informado das alterações através do
-          website www.mariagranel.com ou, se se justificar, através de uma
-          comunicação, e ser-lhe-á solicitada a renovação do consentimento
-          relativamente ao texto da Política de Privacidade.
-        </p>
-
-        <h3 class="2">2. Glossário</h3>
-        <p>
-          Sempre que iniciados por letra maiúscula, os seguintes termos terão a
-          seguinte definição: Sempre que iniciados por letra maiúscula, os
-          seguintes termos terão a seguinte definição: <br />
-          <b>a) Dados Pessoais:</b> qualquer informação relativa a uma pessoa
-          singular que a possa identificar directamente ou que a torne
-          identificável, direta ou indiretamente, em especial por referência a
-          um identificador.
-          <br />
-          <b> b) Candidatos/as </b> - inclui candidatos para todas as funções
-          anunciadas ou promovidas pela Maria Granel, incluindo funções
-          permanentes, a tempo parcial e temporárias, e funções em regime de
-          trabalho independente, bem como pessoas que apresentaram um currículo
-          espontâneo à Maria Granel não relacionado com uma oferta de emprego
-          específica. Contratantes individuais, trabalhadores por conta própria
-          e colaboradores de fornecedores ou outros terceiros que se candidatem
-          a funções na Maria Granel serão tratados como Candidatos(as) para
-          efeitos da presente Política de Privacidade. <br />
-          <b> c) Clientes:</b> clientes e outros a quem a Maria Granel presta
-          serviços ou fornece bens no decurso da sua actividade, quer nos
-          estabelecimentos comerciais abertos ao público como na loja online do
-          website www.mariagranel.com. <br />
-          <b> d) Fornecedores:</b> refere-se a parceiros, consultores,
-          comerciantes (incluindo comerciantes individuais), subcontratados,
-          prestadores ou qualquer outra entidade que forneça bens ou preste
-          serviços à Maria Granel. Nalgumas circunstâncias, a Maria Granel
-          subcontratará os serviços que presta aos Clientes a fornecedores
-          terceiros que realizam os serviços em nome da Maria Granel, os quais
-          ficam igualmente abrangidos por esta definição e pela presente
-          Política De Privacidade.
-          <br />
-          <b> e) Pessoal: </b>inclui trabalhadores dependentes, bem como
-          estagiários envolvidos directamente na actividade da Maria Granel.
-          <br />
-          <b> f) Maria Granel:</b> sempre que falamos na Maria Granel,
-          referimo-nos à entidade responsável pelo tratamento dos dados pessoais
-          dos/as Utilizadores(as) do website www.mariagranel.com, dos Clientes
-          das lojas físicas e da loja online do website www.mariagranel.com,
-          Fornecedores, Candidatos e contactos de emergência do Pessoal. <br />
-          <b> g) Utilizadores/as:</b> qualquer pessoa que aceda ao website
-          www.mariagranel.com.
-        </p>
-
-        <h3 class="3">
-          3. Que dados recolhemos, como os utilizamos e com que fundamento
-        </h3>
-        <p>
-          A Maria Granel recolhe diversos tipos de Dados Pessoais em função das
-          diferentes finalidades, conforme se explicitará infra. Em todo o caso,
-          salientamos que não recolhemos intencionalmente informação pessoal de
-          menores de 18 anos. Se detetarmos que recolhemos, de forma
-          involuntária, informação pessoal de menores de 18 anos, tomaremos as
-          medidas necessárias para eliminar a informação o mais rapidamente
-          possível, excepto se formos obrigados pela legislação aplicável a
-          conservá-la.
-          <br />
-          A Maria Granel recolhe dados pessoais de acordo com: <br />
-          <b>a) Dados do/a cliente:</b> Apenas recolhemos os dados necessários à
-          preparação, cumprimento e execução de qualquer contrato celebrado
-          entre o/a cliente e a Maria Granel, bem como para responder a
-          quaisquer reclamações posteriores relativas ao mesmo, nomeadamente: -
-          Dados identificativos: tais como o nome, data de nascimento, e dados
-          de contacto (telefone e e-mail); - Dados de pagamento e/ou
-          processamento de encomenda: contribuinte fiscal, morada para
-          facturação e morada para envio de encomenda; IBAN. Também possuímos
-          informação relacionada com o seu envolvimento online, que utilizamos
-          para assegurar que as comunicações de marketing que lhe dirigimos são
-          relevantes e oportunas, conforme consentimento que nos deu. Poderemos
-          também possuir imagens de sistemas CCTV, caso se desloque às nossas
-          instalações e informação que, directamente ou por intermédio de alguém
-          da sua Maria Granel, tenha decido partilhar connosco (avaliação dos
-          nossos serviços e produtos, alergias, condições físicas e de saúde e
-          restrições alimentares). Se, por qualquer motivo, necessitarmos de
-          quaisquer dados pessoais suplementares, será informado. <br />
-          <b>b) Dados do/a condidato/a:</b> Dependendo das circunstâncias
-          relevantes e das leis e requisitos locais aplicáveis, poderemos
-          recolher a totalidade ou parte das informações relativas: - Dados
-          identificativos, tais como o nome completo e dados de contacto
-          (telefone e e-mail), estatuto de imigração (no caso de necessitar de
-          uma autorização de trabalho), uma fotografia sua. - Situação e
-          actividade profissional, tais como dados sobre educação; histórico de
-          emprego; actual remuneração, pensões e disposições relacionadas com
-          benefícios, se a mesma for necessária à vaga à qual se pretende
-          candidatar. - Informação suplementar que opte por partilhar connosco,
-          designadamente na sua carta de apresentação, curriculum vitae ou nas
-          entrevistas; - Informação suplementar que os nossos Clientes poderão
-          partilhar sobre si ou que descobrimos a partir de outras fontes de
-          terceiros (vulgo, referências); - Endereço de IP; as datas, horas e
-          frequência com que acede aos nossos serviços e/ou site; e - Imagens de
-          sistemas CCTV, caso se desloque às nossas instalações. Tenha em
-          atenção que a lista acima de categorias de dados pessoais que
-          poderemos recolher não é exaustiva.<br />
-          <b>c) Dados do fornecedor: </b> Apenas recolhemos os dados necessários
-          à preparação, cumprimento e execução de qualquer contrato celebrado
-          entre o Fornecedor e a Maria Granel, bem como para responder e gerir
-          quaisquer reclamações relacionadas com os mesmos. Recolheremos os
-          dados das pessoas de contacto, incluindo os da sua empresa, tais como
-          nomes, números de telefone e endereços de e-mail. Também recolheremos
-          dados bancários, para que possamos pagar-lhe. Poderemos também possuir
-          informação que diretamente ou por intermédio de alguém da sua empresa,
-          tenha decido partilhar connosco, e imagens de sistemas CCTV, caso se
-          desloque às nossas instalações. <br />
-          <b> d) Dados do pessoal: </b> Apenas recolhemos os dados necessários à
-          preparação, cumprimento e execução de qualquer contrato celebrado
-          entre a Maria Granel e o/a trabalhador(a) ou estagiário(a). Poderemos
-          recolher a totalidade ou parte das informações relativas:<br />
-          - Dados identificativos: tais como o nome, estado civil, filiação,
-          data de nascimento, número de cartão de cidadão, contribuinte fiscal,
-          número de beneficiário de segurança social, número de utente e número
-          de beneficiário de seguros; <br />
-          - Dados de contacto: tais como morada, telefone e e-mail; - Dados de
-          pagamento: tais como IBAN.<br />
-          <b>e) Dados do/a utilizador/a do website </b> <br />
-          Apenas recolhemos os dados necessários para garantir uma boa
-          experiência na utilização do website www.mariagranel.com e para
-          permitir que possa usufruir de todas as potencialidades e faculdades
-          proporcionadas pelo mesmo, bem como, para nos ajudar a gerir os
-          serviços que prestamos. Tal inclui informações como a forma como
-          utiliza o nosso website, a frequência com a qual acede ao mesmo, o seu
-          tipo de navegador, o seu endereço de IP, a localização a partir da
-          qual consulta o nosso website, a língua que escolhe para o visualizar
-          e as horas em que o nosso website é mais popular, bem como outras
-          informações melhor descritas nos ponto 5. e no ponto 6. Deste
-          documento. <br />
-          A Maria Granel usa a informação cedida pelo/a Cliente no website
-          www.mariagranel.com exclusivamente para satisfazer os seus pedidos de
-          produtos e serviços: <br /><b> a)</b> Sempre que o/a Cliente executa
-          um processo de encomenda, a Maria Granel recolhe os seus Dados
-          Pessoais para efeitos de venda, separação e transporte dos produtos
-          encomendados;
-          <br />
-          <b>b)</b> Sempre que o/a cliente solicita a assistência de serviço, os
-          seus Dados Pessoais são recolhidos com o objectivo de lhe fornecer os
-          serviços de apoio ao cliente específicos. <br />
-          Todos os serviços que incluam envio automático de emails (newsletters)
-          só são activados após previa autorização expressa do/a utilizador(a)
-          e/ou cliente, que terá sempre disponível uma opção para anular a
-          subscrição.
-        </p>
-
-        <h3 class="4">4. Tenho obrigação de ceder os meus dados</h3>
-        <p>
-          No âmbito da nossa relação comercial ou laboral, terá de fornecer os
-          dados pessoais necessários para estabelecer e criar essa relação e
-          para cumprimento das obrigações e diligências pré-contratuais e
-          contratuais derivadas e ainda os que somos legalmente obrigados a
-          recolher. Sem estes dados, teremos, regra geral, de recusar a
-          celebração ou a execução do contrato ou não poderemos manter o
-          contrato, tendo de o resolver.
-          <br />
-          Caso não nos disponibilize as informações e a documentação
-          necessárias, não poderemos estabelecer ou continuar a relação
-          comercial ou laboral por si pretendida, ou dar seguimento aos pedidos
-          que nos dirija.
-        </p>
-
-        <h3 class="5">5. Cookies</h3>
-        <p>
-          O website www.mariagranel.com utiliza cookies. Essa informação é
-          utilizada para verificar a utilidade e facilidade de utilização do
-          website e para verificar se tem permissão de aceder a determinados
-          serviços. Poderá obter mais informações sobre o que são “cookies” em
-          www.allaboutcookies.com.
-          <br />
-          Se o/a Utilizador(a) preferir não receber cookies quando visitar o
-          website www.mariagranel.com deve configurar o seu programa de
-          navegação ("browser") para avisar antes de registar um cookie no seu
-          disco rígido, e recusá-lo quando é detectada a sua presença. Também
-          pode recusar todos os cookies se configurar o seu programa de
-          navegação. Avisamos que pode necessitar de activar os cookies para
-          utilizar alguns serviços pagos no website www.mariagranel.com.
-        </p>
-
-        <h3 class="6">6. Google Analytics</h3>
-        <p>
-          O Google Analytics é um software que compila dados dos/as
-          Utilizadores(as) do website www.mariagranel.com. O Google Analytics
-          compila dados como, por exemplo, de que website veio o/a
-          Utilizador(a), quanto tempo ficou no website www.mariagranel.com, que
-          tipo de computador e browser está a usar.
-          <br />As informações de tracking recolhidas pelo Google Analytics
-          permitem que se compreenda melhor o tipo de Utilizadores(as) que
-          visitam o website www.mariagranel.com e que conteúdo estão a ler. Isso
-          permite-nos tomar melhores decisões sobre o design e o conteúdo do
-          nosso website. Ocasionalmente, compilaremos estatísticas agregadas
-          sobre o número de visitantes que o website recebe e os browsers que
-          estão sendo usados. Nenhum dado de identificação pessoal é incluído
-          nesse tipo de relatório. Toda a nossa actividade cai dentro dos
-          limites dos Termos de Serviço do Google Analytics.
-        </p>
-
-        <h3 class="7">7. Quem são os destinatários dos seus Dados Pessoais</h3>
-        <p>
-          Os Dados Pessoais não são partilhados com terceiros sem a sua
-          permissão prévia e expressa. <br />
-          No entanto, pode ser solicitada permissão prévia expressa ao/à
-          Utilizador(a) para autorizar a Maria Granel a ceder a informação
-          pessoal do/a Utilizador(a) a terceiros, apenas e quando tal se mostre
-          necessário para fornecer o produto ou o serviço solicitado, sendo
-          garantido ao/à Utilizador(a) que apenas é partilhada a informação
-          mínima necessária para a satisfação do pedido, restringida apenas aos
-          dados necessários para a execução das tarefas contratadas.<br />
-          A Maria Granel garante, ainda, que estes terceiros se obrigam a não
-          revelar, por qualquer forma, os Dados Pessoais, nem a utilizá-los para
-          fins distintos da prestação de serviços contratados. <br />Da mesma
-          forma, a Maria Granel poderá comunicar os seus Dados Pessoais, quando
-          assim seja determinado por lei, no âmbito de um processo judicial ou
-          no âmbito de investigações de atividades suspeitas. <br />
-          A Maria Granel em nenhum caso, levará a cabo transferências
-          internacionais dos seus dados para país terceiro ou organização
-          internacional que se encontre fora da União Europeia.<br />
-          A Maria Granel não recolhe intencionalmente informação pessoal de
-          menores de 18 anos. Se detectar que recolhe, de forma involuntária,
-          informação pessoal de menores de 18 anos, a Maria Granel tomará as
-          medidas necessárias para eliminar a informação o mais rapidamente
-          possível, excepto se for obrigada pela legislação aplicável a
-          conservá-la.
-        </p>
-
-        <h3 class="8">8. Segurança dos Dados</h3>
-        <p>
-          O website www.mariagranel.com encontra-se protegido por um protocolo
-          de transferência de hipertexto seguro (HTTPS) que, actualmente, é a
-          versão mais segura do protocolo de transferência de dados entre redes
-          de computadores na internet, pois faz a encriptação dos dados
-          fornecidos, e garante a segurança dos dados enviados e recebidos
-          pelo/a Utilizador(a).
-          <br />
-          Os dados do/a Utilizador(a) e ou Cliente registados nos servidores da
-          Maria Granel estão sempre protegidos por um login e password. Apesar
-          de a Maria Granel fazer todos os esforços, não pode garantir a
-          segurança da informação que é transmitida, designadamente por
-          intromissão de terceiros (hackers). A fim de melhor garantir a sua
-          segurança, aconselhamos ao utilizador que proceda regularmente à
-          alteração da sua palavra passe de acesso ao website
-          www.mariagranel.com.
-          <br />Os Dados Pessoais não serão vendidos ou alugados.
-          <br />
-          A segurança dos dados é garantida através de procedimentos físicos,
-          eletrónicos e processuais adequados.
-          <br />
-          Sem prejuízo destas garantias, deverá sempre assumir todas as
-          precauções para proteger os seus Dados Pessoais enquanto está a
-          utilizar a internet, nomeadamente mudando frequentemente as passwords
-          e assegurando a utilização de um programa de navegação que permita o
-          uso de comunicação SSL.
-          <br />
-          Não obstante, qualquer violação dos Dados Pessoais que possa resultar
-          num risco para os seus direitos e liberdades, será notificada à
-          autoridade de controlo competente, após o conhecimento da mesma.
-        </p>
-
-        <h3 class="9">9. Quais são os seus direitos</h3>
-        <p>
-          De acordo com a legislação aplicável, a Maria Granel compromete-se a
-          respeitar a confidencialidade da sua informação de carácter pessoal e
-          garantir o exercício dos seus direitos, nomeadamente: <br />
-          <b>a) Direito a ser informado:</b> tem direito a obter informação
-          clara, transparente e compreensível sobre a forma como a Maria Granel
-          usa os seus Dados Pessoais. É aliás, por isso, que lhe
-          disponibilizamos a presente Política de Privacidade.<br />
-          <b>b) Direito de acesso:</b> em complemento ao direito de informação,
-          poderá aceder aos seus Dados Pessoais que tratamos e conservamos.
-          Nestes casos, a Maria Granel facultar-lhe-á uma cópia dos Dados
-          Pessoais que são objecto de tratamento. Além disso, quando o solicite
-          através de meios electrónicos, a informação será facultada num formato
-          electrónico de utilização comum. <br />
-          <b>c) Direito de retificação:</b> tem direito de retificar os seus
-          Dados Pessoais se os mesmos estiverem incorretos, desatualizados ou se
-          pretender completá-los. Para o fazer, pode contactar-nos para os
-          contactos supra indicados ou, alternativamente, caso se tenha
-          registado no website www.mariagranel.com, dirigir-se à sua "área
-          reservada”.
-          <br />
-          <b>d) Direito de apagamento/direito a ser esquecido: </b> pode
-          solicitar-nos que eliminemos os seus dados, no entanto, por favor
-          tenha em consideração que este não é um direito absoluto, uma vez que
-          podemos ter fundamentos legais ou outros interesses legítimos para a
-          retenção dos seus Dados Pessoais.<br />
-          <b>e) Direito de oposição, incluindo a marketing direto:</b> pode
-          optar por ser removido das nossas comunicações diretas de divulgação a
-          qualquer momento. A forma mais fácil de o fazer é clicando na ligação
-          ”remover” em qualquer mensagem electrónica ou comunicação que lhe
-          enviemos, mas pode, também, contactar-nos para o efeito. <br />
-          <b
-            >f) Direito de, a qualquer momento, retirar o seu consentimento para
-            o tratamento de dados:</b
-          >
-          pode retirar o seu consentimento ao tratamento de dados quando o
-          referido tratamento for baseado no seu consentimento. A retirada de
-          consentimento não afeta a legalidade do tratamento baseado no
-          consentimento antes da respetiva retirada.
-          <b>g) Direito de apresentar uma queixa junto da CNPD: </b> caso
-          considere que o tratamento dos seus Dados Pessoais realizado pela
-          Maria Granel viola a legislação de protecção de dados aplicável,
-          poderá apresentar reclamação perante a Comissão Nacional de Protecção
-          de Dados ("CNPD”). Não hesite em contactar-nos antes de apresentar
-          qualquer queixa junto da CNPD.<br />
-          <b>h) Direito à portabilidade dos dados:</b> tem o direito de mover,
-          copiar ou transferir os dados da nossa base de dados para outra.<br />
-          <b>d) Direito de apagamento/direito a ser esquecido: </b> tem direito
-          a solicitar a restrição do tratamento dos seus dados nas seguintes
-          situações: se contestar a exactidão dos dados, se o tratamento for
-          ilícito e não quiser apagar os seus dados, mas apenas limitá-los, se
-          os dados já não forem necessários à Maria Granel ou se tiver exercido
-          o direito de oposição acima referido, durante o período de tempo em
-          que a Maria Granel analisa se os seus interesses legítimos para o
-          tratamento prevalecem ou não sobre aquele direito. <br />
-          Para solicitar o exercício de qualquer um dos direitos acima
-          elencados, para além das formas especificamente referidas nas
-          respectivas alíneas, poderá enviar uma comunicação dirigida para a
-          morada acima identificada ou mediante envio de uma mensagem de correio
-          electrónico para o endereço de email também supra referido, endereço
-          que poderá utilizar igualmente no caso de nos querer colocar alguma
-          questão relativamente à presente Política de Privacidade.
-        </p>
-
-        <h3 class="10">10. Por quanto tempo armazenamos os seus dados</h3>
-        <p>
-          A Maria Granel só guarda os Dados Pessoais pelo tempo necessário para
-          atingir a finalidade para a qual os mesmos foram recolhidos, para
-          responder às suas necessidades ou para cumprir com as nossas
-          obrigações legais. <br />
-          Para determinar o período pelo qual guardamos os seus dados, usamos os
-          critérios referidos infra. Caso se apliquem vários critérios
-          simultaneamente, conservaremos os seus Dados Pessoais nos termos do
-          critério que implicar a conservação dos seus Dados Pessoais pelo maior
-          período: <br />
-          <b>a)</b> Quando adquirir serviços e/ou produtos, conservaremos os
-          seus Dados Pessoais durante a vigência da nossa relação contratual,
-          incluindo eventuais reclamações que possam surgir, bem como durante o
-          prazo de dois anos após a cessação da mesma, sem prejuízo do
-          cumprimento de obrigações legais do responsável do tratamento; <br />
-          <b>b)</b> Quando nos contactar para colocar questões, conservaremos os
-          seus Dados Pessoais pelo período necessário para resolver a sua
-          questão;
-          <br />
-          <b>c)</b> Quando criar uma conta na área reservada (login), isto é,
-          quando se registar no website www.mariagranel.com, conservaremos os
-          seus dados até que nos peça para os apagar; <br />
-          <b>d)</b> Quando tenha consentido no envio da divulgação,
-          conservaremos os seus Dados Pessoais até que anule a subscrição ou nos
-          peça para a eliminar; <br />
-          <b>e)</b> O período de tempo previsto na legislação aplicável; ou
-          <br />
-          <b>f)</b> Até que o propósito específico aplicável a determinados
-          dados deixe de existir. <br />
-          Em qualquer uma das referidas situações, caso exista processo judicial
-          ou contra-ordenacional pendente, os dados serão conservados ainda
-          durante o período de duração do processo e até seis meses após o
-          trânsito em julgado de decisão que venha a ser proferida. <br />
-          Podemos reter ainda alguns dos seus Dados Pessoais na medida em que
-          seja necessário para cumprirmos as nossas obrigações legais, bem como
-          para gerir ou fazer valer os nossos direitos, designadamente através
-          do recurso à via judicial. <br />
-          Findos os prazos de conservação acima referidos, os Dados Pessoais
-          serão eliminados e/ou apagados de forma segura.
-        </p>
-
-        <h3 class="11">11. Garantias</h3>
-        <p>
-          O titular dos dados garante que os Dados Pessoais comunicados à Maria
-          Granel são certos e exatos e compromete-se a notificar qualquer
-          alteração ou modificação aos mesmos e assume responsabilidade
-          exclusiva pelas perdas e danos causados pela comunicação errónea,
-          inexacta ou incompleta dos dados.<br />
-          O titular dos dados fica expressamente advertido de que ao revelar
-          Dados Pessoais em meios públicos da Maria Granel, como Facebook e
-          Instagram, esta informação poderá ser vista e utilizada por terceiros.
-          A Maria Granel não lê nenhuma comunicação pessoal publicada nas
-          páginas web próprias dos seus visitantes.
-        </p>
-
-        <h3 class="12">
-          12. Quem é o responsável pelo Tratamento dos seus Dados Pessoais
-        </h3>
-        <p>
-          O responsável pelo tratamento dos Dados Pessoais é a BIOGRANEL, Lda.,
-          pessoa colectiva número 513668560, com sede em Rua José Duro, n.º 22B,
-          1700-261 Lisboa, Portugal. <br />Pode contactar-nos através dos
-          seguintes meios: Morada: Rua José Duro, n.º 22B, 1700-261 Lisboa,
-          Portugal<br />
-          Telefone: (+351) 214.056.077<br />
-          E-mail: loja@mariagranel.com
-        </p>
-      </div>
-    </div>
-
-    <!--Rodapé-->
-    <footer>
-      <div class="container">
-        <section class="footer-container">
-          <div class="footer-left">
-            <h3>Subscreva a newsletter</h3>
-            <div class="newsletter">
-              <input
-                required
-                class="newsletter-email"
-                type="email"
-                placeholder="E-mail"
-              />
-              <input class="newsletter-button" type="submit" value="Submeter" />
-            </div>
-            <h3>Siga-nos</h3>
-            <div class="redes-sociais">
-              <i class="fa-brands fa-facebook-square"></i>
-              <i class="fa-brands fa-instagram"></i>
-              <i class="fa-brands fa-youtube"></i>
-            </div>
-          </div>
-          <div class="footer-center">
-            <h3>Maria Granel</h3>
-            <ul>
-              <li>Lojas</li>
-              <li>Sobre nós</li>
-            </ul>
-            <h3>Contactos</h3>
-            <ul>
-              <li>211 351 896 Alvalade</li>
-              <li>214 056 077 Campo de Ourique / Loja Online</li>
-              <li>geral@mariagranel.com</li>
-              <li>loja@mariagranel.com</li>
-            </ul>
-          </div>
-          <div class="footer-right">
-            <h3>Ajuda</h3>
-            <ul>
-              <li>FAQs</li>
-              <li>Termos e Condições</li>
-              <li>
-                <a href="politicadeprivacidade.html" target="_blank"
-                  >Política de Privacidade</a
-                >
-              </li>
-              <a href="https://www.livroreclamacoes.pt/Inicio/" target="_blank">
-                <img
-                  class="reclamaçoes"
-                  src="img/livrodereclamacoes.png"
-                  alt="Livro de reclamações"
-                />
-              </a>
-            </ul>
-          </div>
-        </section>
-        <div class="footer-bottom">
+        <div class="privacy-policy-main">
+          <h3 id="1">1. Introdução</h3>
           <p>
-            Direitos de autor @2022 Margarida Cerqueira. Todos os direitos
-            reservados.
+            A <b> BIOGRANEL LDA </b> (doravante designada apenas por
+            <b>Maria Granel</b>) acredita veementemente na protecção da
+            confidencialidade e na segurança dos Dados Pessoais das pessoas com
+            quem se relaciona no exercício da sua actividade. A Maria Granel
+            manifesta o seu firme compromisso em cumprir a legislação em vigor a
+            cada momento e em tratar os Dados Pessoais em conformidade com a
+            presente Política de Privacidade. <br />
+            <b>Os Dados Pessoais</b> específicos que serão tratados e a forma
+            como vão ser utilizados dependem em grande medida dos serviços por
+            si solicitados e consigo acordados. A presente
+            <b> Política de Privacidade</b> aplica-se aos dados pessoais dos/as
+            nossos/as <b>clientes</b>, <b>utilizadores/as</b> do nosso website,
+            <b>fornecedores</b> e <b>candidatos/as</b> sempre que estes sejam
+            pessoas singulares. <br />
+            A Maria Granel respeita a privacidade das pessoas com quem se
+            relaciona no exercício da sua atividade e protege os seus Dados
+            Pessoais. A maior parte do website www.mariagranel.com pode ser
+            navegada sem recurso à partilha de qualquer informação por parte
+            do/a Utilizador(a). Este documento informa-o/a da utilização que a
+            Maria Granel faz dos seus Dados Pessoais sempre que esta for
+            necessária para disponibilizar os seus serviços.<br />
+            O website www.mariagranel.com poderá conter, ocasionalmente,
+            ligações, banners ou outras ligações de hipertexto para websites e
+            serviços de outras sociedades, que têm as suas próprias políticas de
+            privacidade, e/ou serviços prestados por terceiros instalados no seu
+            dispositivo podem permitir o acesso a informação constante do mesmo.
+            Recomendamos aos/às utilizadores/as do nosso website que leiam
+            atentamente as políticas de privacidade de tais terceiros antes de
+            submeter quaisquer Dados Pessoais a esses websites. <br />
+            A Maria Granel não tem qualquer controlo sobre o conteúdo desses
+            websites, pelo que não é responsável pelo conteúdo das políticas de
+            privacidade desses terceiros nem pelo tratamento que dos seus Dados
+            Pessoais é feito pelos mesmos. <br />
+            A Maria Granel reserva-se o direito de modificar a Política de
+            Privacidade em função de novas exigências legais e/ou
+            regulamentares, por motivos de segurança ou com a finalidade de
+            adaptar a referida Política de Privacidade às instruções das
+            autoridades de controlo em matéria de protecção de dados. <br />
+            A presente Política de Privacidade aplica-se a qualquer utilização
+            do website www.mariagranel.com e a qualquer transacção comercial
+            realizada no mesmo. O/A utilizador/a e/ou cliente deve consultar,
+            adicionalmente, os Termos e Condições desse website. <br />
+            No momento do seu registo no website www.mariagranel.com há
+            informação nele constante que poderá ser transmitida. Essa
+            transmissão decorre dos serviços por si contratada com terceiros.
+            Recomendamos que leia atentamente as políticas de privacidade de
+            tais terceiros. A Maria Granel não é responsável pelas práticas ou
+            conteúdos das políticas de privacidade desses terceiros. <br />
+            Sempre que for introduzida qualquer alteração na Política de
+            Privacidade, o/a utilizador/a será informado das alterações através
+            do website www.mariagranel.com ou, se se justificar, através de uma
+            comunicação, e ser-lhe-á solicitada a renovação do consentimento
+            relativamente ao texto da Política de Privacidade.
           </p>
+
+          <h3 id="2">2. Glossário</h3>
+          <p>
+            Sempre que iniciados por letra maiúscula, os seguintes termos terão
+            a seguinte definição: Sempre que iniciados por letra maiúscula, os
+            seguintes termos terão a seguinte definição: <br />
+            <b>a) Dados Pessoais:</b> qualquer informação relativa a uma pessoa
+            singular que a possa identificar directamente ou que a torne
+            identificável, direta ou indiretamente, em especial por referência a
+            um identificador.
+            <br />
+            <b> b) Candidatos/as </b> - inclui candidatos para todas as funções
+            anunciadas ou promovidas pela Maria Granel, incluindo funções
+            permanentes, a tempo parcial e temporárias, e funções em regime de
+            trabalho independente, bem como pessoas que apresentaram um
+            currículo espontâneo à Maria Granel não relacionado com uma oferta
+            de emprego específica. Contratantes individuais, trabalhadores por
+            conta própria e colaboradores de fornecedores ou outros terceiros
+            que se candidatem a funções na Maria Granel serão tratados como
+            Candidatos(as) para efeitos da presente Política de Privacidade.
+            <br />
+            <b> c) Clientes:</b> clientes e outros a quem a Maria Granel presta
+            serviços ou fornece bens no decurso da sua actividade, quer nos
+            estabelecimentos comerciais abertos ao público como na loja online
+            do website www.mariagranel.com. <br />
+            <b> d) Fornecedores:</b> refere-se a parceiros, consultores,
+            comerciantes (incluindo comerciantes individuais), subcontratados,
+            prestadores ou qualquer outra entidade que forneça bens ou preste
+            serviços à Maria Granel. Nalgumas circunstâncias, a Maria Granel
+            subcontratará os serviços que presta aos Clientes a fornecedores
+            terceiros que realizam os serviços em nome da Maria Granel, os quais
+            ficam igualmente abrangidos por esta definição e pela presente
+            Política De Privacidade.
+            <br />
+            <b> e) Pessoal: </b>inclui trabalhadores dependentes, bem como
+            estagiários envolvidos directamente na actividade da Maria Granel.
+            <br />
+            <b> f) Maria Granel:</b> sempre que falamos na Maria Granel,
+            referimo-nos à entidade responsável pelo tratamento dos dados
+            pessoais dos/as Utilizadores(as) do website www.mariagranel.com, dos
+            Clientes das lojas físicas e da loja online do website
+            www.mariagranel.com, Fornecedores, Candidatos e contactos de
+            emergência do Pessoal. <br />
+            <b> g) Utilizadores/as:</b> qualquer pessoa que aceda ao website
+            www.mariagranel.com.
+          </p>
+
+          <h3 id="3">
+            3. Que dados recolhemos, como os utilizamos e com que fundamento
+          </h3>
+          <p>
+            A Maria Granel recolhe diversos tipos de Dados Pessoais em função
+            das diferentes finalidades, conforme se explicitará infra. Em todo o
+            caso, salientamos que não recolhemos intencionalmente informação
+            pessoal de menores de 18 anos. Se detetarmos que recolhemos, de
+            forma involuntária, informação pessoal de menores de 18 anos,
+            tomaremos as medidas necessárias para eliminar a informação o mais
+            rapidamente possível, excepto se formos obrigados pela legislação
+            aplicável a conservá-la.
+            <br />
+            A Maria Granel recolhe dados pessoais de acordo com: <br />
+            <b>a) Dados do/a cliente:</b> Apenas recolhemos os dados necessários
+            à preparação, cumprimento e execução de qualquer contrato celebrado
+            entre o/a cliente e a Maria Granel, bem como para responder a
+            quaisquer reclamações posteriores relativas ao mesmo, nomeadamente:
+            - Dados identificativos: tais como o nome, data de nascimento, e
+            dados de contacto (telefone e e-mail); - Dados de pagamento e/ou
+            processamento de encomenda: contribuinte fiscal, morada para
+            facturação e morada para envio de encomenda; IBAN. Também possuímos
+            informação relacionada com o seu envolvimento online, que utilizamos
+            para assegurar que as comunicações de marketing que lhe dirigimos
+            são relevantes e oportunas, conforme consentimento que nos deu.
+            Poderemos também possuir imagens de sistemas CCTV, caso se desloque
+            às nossas instalações e informação que, directamente ou por
+            intermédio de alguém da sua Maria Granel, tenha decido partilhar
+            connosco (avaliação dos nossos serviços e produtos, alergias,
+            condições físicas e de saúde e restrições alimentares). Se, por
+            qualquer motivo, necessitarmos de quaisquer dados pessoais
+            suplementares, será informado. <br />
+            <b>b) Dados do/a condidato/a:</b> Dependendo das circunstâncias
+            relevantes e das leis e requisitos locais aplicáveis, poderemos
+            recolher a totalidade ou parte das informações relativas: - Dados
+            identificativos, tais como o nome completo e dados de contacto
+            (telefone e e-mail), estatuto de imigração (no caso de necessitar de
+            uma autorização de trabalho), uma fotografia sua. - Situação e
+            actividade profissional, tais como dados sobre educação; histórico
+            de emprego; actual remuneração, pensões e disposições relacionadas
+            com benefícios, se a mesma for necessária à vaga à qual se pretende
+            candidatar. - Informação suplementar que opte por partilhar
+            connosco, designadamente na sua carta de apresentação, curriculum
+            vitae ou nas entrevistas; - Informação suplementar que os nossos
+            Clientes poderão partilhar sobre si ou que descobrimos a partir de
+            outras fontes de terceiros (vulgo, referências); - Endereço de IP;
+            as datas, horas e frequência com que acede aos nossos serviços e/ou
+            site; e - Imagens de sistemas CCTV, caso se desloque às nossas
+            instalações. Tenha em atenção que a lista acima de categorias de
+            dados pessoais que poderemos recolher não é exaustiva.<br />
+            <b>c) Dados do fornecedor: </b> Apenas recolhemos os dados
+            necessários à preparação, cumprimento e execução de qualquer
+            contrato celebrado entre o Fornecedor e a Maria Granel, bem como
+            para responder e gerir quaisquer reclamações relacionadas com os
+            mesmos. Recolheremos os dados das pessoas de contacto, incluindo os
+            da sua empresa, tais como nomes, números de telefone e endereços de
+            e-mail. Também recolheremos dados bancários, para que possamos
+            pagar-lhe. Poderemos também possuir informação que diretamente ou
+            por intermédio de alguém da sua empresa, tenha decido partilhar
+            connosco, e imagens de sistemas CCTV, caso se desloque às nossas
+            instalações. <br />
+            <b> d) Dados do pessoal: </b> Apenas recolhemos os dados necessários
+            à preparação, cumprimento e execução de qualquer contrato celebrado
+            entre a Maria Granel e o/a trabalhador(a) ou estagiário(a).
+            Poderemos recolher a totalidade ou parte das informações
+            relativas:<br />
+            - Dados identificativos: tais como o nome, estado civil, filiação,
+            data de nascimento, número de cartão de cidadão, contribuinte
+            fiscal, número de beneficiário de segurança social, número de utente
+            e número de beneficiário de seguros; <br />
+            - Dados de contacto: tais como morada, telefone e e-mail; - Dados de
+            pagamento: tais como IBAN.<br />
+            <b>e) Dados do/a utilizador/a do website </b> <br />
+            Apenas recolhemos os dados necessários para garantir uma boa
+            experiência na utilização do website www.mariagranel.com e para
+            permitir que possa usufruir de todas as potencialidades e faculdades
+            proporcionadas pelo mesmo, bem como, para nos ajudar a gerir os
+            serviços que prestamos. Tal inclui informações como a forma como
+            utiliza o nosso website, a frequência com a qual acede ao mesmo, o
+            seu tipo de navegador, o seu endereço de IP, a localização a partir
+            da qual consulta o nosso website, a língua que escolhe para o
+            visualizar e as horas em que o nosso website é mais popular, bem
+            como outras informações melhor descritas nos ponto 5. e no ponto 6.
+            Deste documento. <br />
+            A Maria Granel usa a informação cedida pelo/a Cliente no website
+            www.mariagranel.com exclusivamente para satisfazer os seus pedidos
+            de produtos e serviços: <br /><b> a)</b> Sempre que o/a Cliente
+            executa um processo de encomenda, a Maria Granel recolhe os seus
+            Dados Pessoais para efeitos de venda, separação e transporte dos
+            produtos encomendados;
+            <br />
+            <b>b)</b> Sempre que o/a cliente solicita a assistência de serviço,
+            os seus Dados Pessoais são recolhidos com o objectivo de lhe
+            fornecer os serviços de apoio ao cliente específicos. <br />
+            Todos os serviços que incluam envio automático de emails
+            (newsletters) só são activados após previa autorização expressa do/a
+            utilizador(a) e/ou cliente, que terá sempre disponível uma opção
+            para anular a subscrição.
+          </p>
+
+          <h3 id="4">4. Tenho obrigação de ceder os meus dados</h3>
+          <p>
+            No âmbito da nossa relação comercial ou laboral, terá de fornecer os
+            dados pessoais necessários para estabelecer e criar essa relação e
+            para cumprimento das obrigações e diligências pré-contratuais e
+            contratuais derivadas e ainda os que somos legalmente obrigados a
+            recolher. Sem estes dados, teremos, regra geral, de recusar a
+            celebração ou a execução do contrato ou não poderemos manter o
+            contrato, tendo de o resolver.
+            <br />
+            Caso não nos disponibilize as informações e a documentação
+            necessárias, não poderemos estabelecer ou continuar a relação
+            comercial ou laboral por si pretendida, ou dar seguimento aos
+            pedidos que nos dirija.
+          </p>
+
+          <h3 id="5">5. Cookies</h3>
+          <p>
+            O website www.mariagranel.com utiliza cookies. Essa informação é
+            utilizada para verificar a utilidade e facilidade de utilização do
+            website e para verificar se tem permissão de aceder a determinados
+            serviços. Poderá obter mais informações sobre o que são “cookies” em
+            www.allaboutcookies.com.
+            <br />
+            Se o/a Utilizador(a) preferir não receber cookies quando visitar o
+            website www.mariagranel.com deve configurar o seu programa de
+            navegação ("browser") para avisar antes de registar um cookie no seu
+            disco rígido, e recusá-lo quando é detectada a sua presença. Também
+            pode recusar todos os cookies se configurar o seu programa de
+            navegação. Avisamos que pode necessitar de activar os cookies para
+            utilizar alguns serviços pagos no website www.mariagranel.com.
+          </p>
+
+          <h3 id="6">6. Google Analytics</h3>
+          <p>
+            O Google Analytics é um software que compila dados dos/as
+            Utilizadores(as) do website www.mariagranel.com. O Google Analytics
+            compila dados como, por exemplo, de que website veio o/a
+            Utilizador(a), quanto tempo ficou no website www.mariagranel.com,
+            que tipo de computador e browser está a usar.
+            <br />As informações de tracking recolhidas pelo Google Analytics
+            permitem que se compreenda melhor o tipo de Utilizadores(as) que
+            visitam o website www.mariagranel.com e que conteúdo estão a ler.
+            Isso permite-nos tomar melhores decisões sobre o design e o conteúdo
+            do nosso website. Ocasionalmente, compilaremos estatísticas
+            agregadas sobre o número de visitantes que o website recebe e os
+            browsers que estão sendo usados. Nenhum dado de identificação
+            pessoal é incluído nesse tipo de relatório. Toda a nossa actividade
+            cai dentro dos limites dos Termos de Serviço do Google Analytics.
+          </p>
+
+          <h3 id="7">7. Quem são os destinatários dos seus Dados Pessoais</h3>
+          <p>
+            Os Dados Pessoais não são partilhados com terceiros sem a sua
+            permissão prévia e expressa. <br />
+            No entanto, pode ser solicitada permissão prévia expressa ao/à
+            Utilizador(a) para autorizar a Maria Granel a ceder a informação
+            pessoal do/a Utilizador(a) a terceiros, apenas e quando tal se
+            mostre necessário para fornecer o produto ou o serviço solicitado,
+            sendo garantido ao/à Utilizador(a) que apenas é partilhada a
+            informação mínima necessária para a satisfação do pedido,
+            restringida apenas aos dados necessários para a execução das tarefas
+            contratadas.<br />
+            A Maria Granel garante, ainda, que estes terceiros se obrigam a não
+            revelar, por qualquer forma, os Dados Pessoais, nem a utilizá-los
+            para fins distintos da prestação de serviços contratados. <br />Da
+            mesma forma, a Maria Granel poderá comunicar os seus Dados Pessoais,
+            quando assim seja determinado por lei, no âmbito de um processo
+            judicial ou no âmbito de investigações de atividades suspeitas.
+            <br />
+            A Maria Granel em nenhum caso, levará a cabo transferências
+            internacionais dos seus dados para país terceiro ou organização
+            internacional que se encontre fora da União Europeia.<br />
+            A Maria Granel não recolhe intencionalmente informação pessoal de
+            menores de 18 anos. Se detectar que recolhe, de forma involuntária,
+            informação pessoal de menores de 18 anos, a Maria Granel tomará as
+            medidas necessárias para eliminar a informação o mais rapidamente
+            possível, excepto se for obrigada pela legislação aplicável a
+            conservá-la.
+          </p>
+
+          <h3 id="8">8. Segurança dos Dados</h3>
+          <p>
+            O website www.mariagranel.com encontra-se protegido por um protocolo
+            de transferência de hipertexto seguro (HTTPS) que, actualmente, é a
+            versão mais segura do protocolo de transferência de dados entre
+            redes de computadores na internet, pois faz a encriptação dos dados
+            fornecidos, e garante a segurança dos dados enviados e recebidos
+            pelo/a Utilizador(a).
+            <br />
+            Os dados do/a Utilizador(a) e ou Cliente registados nos servidores
+            da Maria Granel estão sempre protegidos por um login e password.
+            Apesar de a Maria Granel fazer todos os esforços, não pode garantir
+            a segurança da informação que é transmitida, designadamente por
+            intromissão de terceiros (hackers). A fim de melhor garantir a sua
+            segurança, aconselhamos ao utilizador que proceda regularmente à
+            alteração da sua palavra passe de acesso ao website
+            www.mariagranel.com.
+            <br />Os Dados Pessoais não serão vendidos ou alugados.
+            <br />
+            A segurança dos dados é garantida através de procedimentos físicos,
+            eletrónicos e processuais adequados.
+            <br />
+            Sem prejuízo destas garantias, deverá sempre assumir todas as
+            precauções para proteger os seus Dados Pessoais enquanto está a
+            utilizar a internet, nomeadamente mudando frequentemente as
+            passwords e assegurando a utilização de um programa de navegação que
+            permita o uso de comunicação SSL.
+            <br />
+            Não obstante, qualquer violação dos Dados Pessoais que possa
+            resultar num risco para os seus direitos e liberdades, será
+            notificada à autoridade de controlo competente, após o conhecimento
+            da mesma.
+          </p>
+
+          <h3 id="9">9. Quais são os seus direitos</h3>
+          <p>
+            De acordo com a legislação aplicável, a Maria Granel compromete-se a
+            respeitar a confidencialidade da sua informação de carácter pessoal
+            e garantir o exercício dos seus direitos, nomeadamente: <br />
+            <b>a) Direito a ser informado:</b> tem direito a obter informação
+            clara, transparente e compreensível sobre a forma como a Maria
+            Granel usa os seus Dados Pessoais. É aliás, por isso, que lhe
+            disponibilizamos a presente Política de Privacidade.<br />
+            <b>b) Direito de acesso:</b> em complemento ao direito de
+            informação, poderá aceder aos seus Dados Pessoais que tratamos e
+            conservamos. Nestes casos, a Maria Granel facultar-lhe-á uma cópia
+            dos Dados Pessoais que são objecto de tratamento. Além disso, quando
+            o solicite através de meios electrónicos, a informação será
+            facultada num formato electrónico de utilização comum. <br />
+            <b>c) Direito de retificação:</b> tem direito de retificar os seus
+            Dados Pessoais se os mesmos estiverem incorretos, desatualizados ou
+            se pretender completá-los. Para o fazer, pode contactar-nos para os
+            contactos supra indicados ou, alternativamente, caso se tenha
+            registado no website www.mariagranel.com, dirigir-se à sua "área
+            reservada”.
+            <br />
+            <b>d) Direito de apagamento/direito a ser esquecido: </b> pode
+            solicitar-nos que eliminemos os seus dados, no entanto, por favor
+            tenha em consideração que este não é um direito absoluto, uma vez
+            que podemos ter fundamentos legais ou outros interesses legítimos
+            para a retenção dos seus Dados Pessoais.<br />
+            <b>e) Direito de oposição, incluindo a marketing direto:</b> pode
+            optar por ser removido das nossas comunicações diretas de divulgação
+            a qualquer momento. A forma mais fácil de o fazer é clicando na
+            ligação ”remover” em qualquer mensagem electrónica ou comunicação
+            que lhe enviemos, mas pode, também, contactar-nos para o efeito.
+            <br />
+            <b
+              >f) Direito de, a qualquer momento, retirar o seu consentimento
+              para o tratamento de dados:</b
+            >
+            pode retirar o seu consentimento ao tratamento de dados quando o
+            referido tratamento for baseado no seu consentimento. A retirada de
+            consentimento não afeta a legalidade do tratamento baseado no
+            consentimento antes da respetiva retirada.
+            <b>g) Direito de apresentar uma queixa junto da CNPD: </b> caso
+            considere que o tratamento dos seus Dados Pessoais realizado pela
+            Maria Granel viola a legislação de protecção de dados aplicável,
+            poderá apresentar reclamação perante a Comissão Nacional de
+            Protecção de Dados ("CNPD”). Não hesite em contactar-nos antes de
+            apresentar qualquer queixa junto da CNPD.<br />
+            <b>h) Direito à portabilidade dos dados:</b> tem o direito de mover,
+            copiar ou transferir os dados da nossa base de dados para outra.<br />
+            <b>d) Direito de apagamento/direito a ser esquecido: </b> tem
+            direito a solicitar a restrição do tratamento dos seus dados nas
+            seguintes situações: se contestar a exactidão dos dados, se o
+            tratamento for ilícito e não quiser apagar os seus dados, mas apenas
+            limitá-los, se os dados já não forem necessários à Maria Granel ou
+            se tiver exercido o direito de oposição acima referido, durante o
+            período de tempo em que a Maria Granel analisa se os seus interesses
+            legítimos para o tratamento prevalecem ou não sobre aquele direito.
+            <br />
+            Para solicitar o exercício de qualquer um dos direitos acima
+            elencados, para além das formas especificamente referidas nas
+            respectivas alíneas, poderá enviar uma comunicação dirigida para a
+            morada acima identificada ou mediante envio de uma mensagem de
+            correio electrónico para o endereço de email também supra referido,
+            endereço que poderá utilizar igualmente no caso de nos querer
+            colocar alguma questão relativamente à presente Política de
+            Privacidade.
+          </p>
+
+          <h3 id="10">10. Por quanto tempo armazenamos os seus dados</h3>
+          <p>
+            A Maria Granel só guarda os Dados Pessoais pelo tempo necessário
+            para atingir a finalidade para a qual os mesmos foram recolhidos,
+            para responder às suas necessidades ou para cumprir com as nossas
+            obrigações legais. <br />
+            Para determinar o período pelo qual guardamos os seus dados, usamos
+            os critérios referidos infra. Caso se apliquem vários critérios
+            simultaneamente, conservaremos os seus Dados Pessoais nos termos do
+            critério que implicar a conservação dos seus Dados Pessoais pelo
+            maior período: <br />
+            <b>a)</b> Quando adquirir serviços e/ou produtos, conservaremos os
+            seus Dados Pessoais durante a vigência da nossa relação contratual,
+            incluindo eventuais reclamações que possam surgir, bem como durante
+            o prazo de dois anos após a cessação da mesma, sem prejuízo do
+            cumprimento de obrigações legais do responsável do tratamento;
+            <br />
+            <b>b)</b> Quando nos contactar para colocar questões, conservaremos
+            os seus Dados Pessoais pelo período necessário para resolver a sua
+            questão;
+            <br />
+            <b>c)</b> Quando criar uma conta na área reservada (login), isto é,
+            quando se registar no website www.mariagranel.com, conservaremos os
+            seus dados até que nos peça para os apagar; <br />
+            <b>d)</b> Quando tenha consentido no envio da divulgação,
+            conservaremos os seus Dados Pessoais até que anule a subscrição ou
+            nos peça para a eliminar; <br />
+            <b>e)</b> O período de tempo previsto na legislação aplicável; ou
+            <br />
+            <b>f)</b> Até que o propósito específico aplicável a determinados
+            dados deixe de existir. <br />
+            Em qualquer uma das referidas situações, caso exista processo
+            judicial ou contra-ordenacional pendente, os dados serão conservados
+            ainda durante o período de duração do processo e até seis meses após
+            o trânsito em julgado de decisão que venha a ser proferida. <br />
+            Podemos reter ainda alguns dos seus Dados Pessoais na medida em que
+            seja necessário para cumprirmos as nossas obrigações legais, bem
+            como para gerir ou fazer valer os nossos direitos, designadamente
+            através do recurso à via judicial. <br />
+            Findos os prazos de conservação acima referidos, os Dados Pessoais
+            serão eliminados e/ou apagados de forma segura.
+          </p>
+
+          <h3 id="11">11. Garantias</h3>
+          <p>
+            O titular dos dados garante que os Dados Pessoais comunicados à
+            Maria Granel são certos e exatos e compromete-se a notificar
+            qualquer alteração ou modificação aos mesmos e assume
+            responsabilidade exclusiva pelas perdas e danos causados pela
+            comunicação errónea, inexacta ou incompleta dos dados.<br />
+            O titular dos dados fica expressamente advertido de que ao revelar
+            Dados Pessoais em meios públicos da Maria Granel, como Facebook e
+            Instagram, esta informação poderá ser vista e utilizada por
+            terceiros. A Maria Granel não lê nenhuma comunicação pessoal
+            publicada nas páginas web próprias dos seus visitantes.
+          </p>
+
+          <h3 id="12">
+            12. Quem é o responsável pelo Tratamento dos seus Dados Pessoais
+          </h3>
+          <p>
+            O responsável pelo tratamento dos Dados Pessoais é a BIOGRANEL,
+            Lda., pessoa colectiva número 513668560, com sede em Rua José Duro,
+            n.º 22B, 1700-261 Lisboa, Portugal. <br />Pode contactar-nos através
+            dos seguintes meios: Morada: Rua José Duro, n.º 22B, 1700-261
+            Lisboa, Portugal<br />
+            Telefone: (+351) 214.056.077<br />
+            E-mail: loja@mariagranel.com
+          </p>
+        </div>
+      </div>
+    </main>
+    <!--MAIN FOOTER -->
+    <footer class="main-footer">
+      <div class="footer-container">
+        <div class="footer-col">
+          <h5 class="subtitle">Subscreve a newsletter</h5>
+          <div class="newsletter">
+            <input
+              required
+              class="newsletter-email"
+              type="email"
+              placeholder="E-mail"
+            />
+            <input class="btn btn-newsletter" type="submit" value="Submeter" />
+          </div>
+          <h5 class="subtitle">segue-nos</h5>
+          <div class="social-icons">
+            <i class="fa-brands fa-facebook-square"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5 class="subtitle">Maria Granel</h5>
+          <ul>
+            <li>Lojas</li>
+            <li>Sobre nós</li>
+          </ul>
+          <h5 class="subtitle">Contactos</h5>
+          <ul>
+            <li>211 351 896 Alvalade</li>
+            <li>214 056 077 Campo de Ourique / Loja Online</li>
+            <li>geral@mariagranel.com</li>
+            <li>loja@mariagranel.com</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5 class="subtitle">Ajuda</h5>
+          <ul>
+            <li>FAQs</li>
+            <li>Termos e Condições</li>
+            <li>
+              <a href="politicadeprivacidade.html" target="_blank"
+                >Política de Privacidade</a
+              >
+            </li>
+            <a href="https://www.livroreclamacoes.pt/Inicio/" target="_blank">
+              <img
+                class="legal"
+                src="img/livrodereclamacoes.png"
+                alt="Livro de reclamações"
+              />
+            </a>
+          </ul>
         </div>
       </div>
     </footer>

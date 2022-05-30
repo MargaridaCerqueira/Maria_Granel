@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- viewport - -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- meta tags for SEO and social sharing -->
+    <title>Iniciar Sessão</title>
+
+    <!-- import font-->
+    <link rel="stylesheet" href="https://use.typekit.net/mqf2vzz.css" />
+
+    <!-- import fontawesome icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+    <!-- import the webpage’s stylesheet -->
+    <link href="styles/css/style.css" rel="stylesheet" />
+
+    <!-- Maria Granel icon -->
+    <!-- prettier-ignore -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+    <!-- prettier-ignore -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+    <!-- prettier-ignore -->
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+    <!-- prettier-ignore -->
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <!-- prettier-ignore -->
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+
+  <body class="login-bg">
+    <section class="login">
+      <div class="login-box">
+        <h2 class="title-secondary login-title">Iniciar Sessão</h2>
+        <form action="mailto:vossoemailaqui" method="post">
+          <div class="login-group">
+            <label for="inputName">Nome de utilizador</label>
+            <input
+              type="text"
+              class="login-input"
+              id="inputName"
+              placeholder="Nome de utilizador"
+              name="name"
+              required
+            />
+          </div>
+          <div class="login-group">
+            <label for="Password">Password</label>
+            <input
+              class="login-input"
+              id="Password"
+              placeholder="Password"
+              name="text"
+              required
+            />
+          </div>
+          <div class="login-group-last text-right">
+            <a href="#">Recuperar password</a>
+          </div>
+          <div>
+            <button type="submit" class="btn btn-primary">
+              Iniciar Sessão
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

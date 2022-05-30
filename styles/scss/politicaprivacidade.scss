@@ -1,0 +1,19 @@
+//PAGINA POLITICA PRIVACIDADE
+.privacy-policy {
+  color: $green;
+
+  .privacy-policy-title {
+    font-family: $heading-font;
+    font-size: $medium;
+    color: $brand;
+    text-transform: uppercase;
+  }
+
+  .privacy-policy-index a {
+    color: $green;
+  }
+
+  .privacy-policy-main {
+    color: $green;
+  }
+}
