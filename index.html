@@ -62,16 +62,17 @@
     </header>
 
     <!-- START OF THE PAGE CONTENT -->
-    <main>
-      <!-- HERO -->
-      <section class="hero">
-        <div class="hero-img">
-          <div class="hero-text">
-            <h1>A primeira zero waste store portuguesa</h1>
-          </div>
-        </div>
-      </section>
 
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-img">
+        <div class="hero-text">
+          <h1>A primeira zero waste store portuguesa</h1>
+        </div>
+      </div>
+    </section>
+
+    <main class="container">
       <!-- NEW PRODUCTS -->
       <section class="newproduct padding-100">
         <h1 class="title-primary">Produtos novos</h1>
@@ -115,75 +116,94 @@
       </section>
 
       <!-- PODCAST&WORKSHOP -->
-      <section class="container row lastnews-container">
-        <div class="col-3">
-          <h2 class="title-primary lastnews-title">Podcast & worksops</h2>
-          <p>Mantém-te a par das novidades</p>
-        </div>
-        <div class="col-3">
-          <img src="/assets/img/podcastep31.jpg" alt="Podcast Ep31" />
-        </div>
-        <div class="col-3">
-          <img src="/assets/img/podcastep32.jpg" alt="Podcast Ep32" />
-        </div>
-        <div class="col-3">
-          <img src="/assets/img/workshop.jpg" alt="Workshop" />
+
+      <section class="pw-content">
+        <div class="row">
+          <div class="pic-card col-3 col-12 title-primary pw-title">
+            Podcast & worksops
+            <span>Mantém-te a par das novidades</span>
+          </div>
+          <div class="pic-card col-3 col-12">
+            <a href="#">
+              <img src="/assets/img/EP._4_podcast.jpg" alt="Podcast Ep31"
+            /></a>
+          </div>
+          <div class="pic-card col-3 col-12">
+            <a href="#">
+              <img src="/assets/img/EP._5_podcast.jpg" alt="Podcast Ep32"
+            /></a>
+          </div>
+          <div class="pic-card col-3 col-12">
+            <a href="#">
+              <img src="/assets/img/workshop.png" alt="Workshop"
+            /></a>
+          </div>
         </div>
       </section>
     </main>
 
     <!--MAIN FOOTER -->
+
     <footer class="main-footer">
-      <div class="footer-container">
-        <div class="footer-col">
-          <h5 class="subtitle">Subscreve a newsletter</h5>
-          <div class="newsletter">
-            <input
-              required
-              class="newsletter-email"
-              type="email"
-              placeholder="E-mail"
-            />
-            <input class="btn btn-newsletter" type="submit" value="Submeter" />
-          </div>
-          <h5 class="subtitle">segue-nos</h5>
-          <div class="social-icons">
-            <i class="fa-brands fa-facebook-square"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-youtube"></i>
-          </div>
-        </div>
-        <div class="footer-col">
-          <h5 class="subtitle">Maria Granel</h5>
+      <div class="row footer-content">
+        <div class="footer-col col-4 col-12">
           <ul>
+            <li class="subtitle padding-bottom-20">Subscreve a newsletter</li>
+            <div class="newsletter">
+              <input
+                required
+                class="newsletter-email"
+                type="email"
+                placeholder="E-mail"
+              />
+              <input
+                class="btn btn-newsletter"
+                type="submit"
+                value="Submeter"
+              />
+            </div>
+            <li class="subtitle padding-top-20 padding-bottom-20">Segue-nos</li>
+            <li class="social-icons">
+              <i class="fa-brands fa-facebook-square"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </li>
+            <li></li>
+          </ul>
+        </div>
+
+        <div class="footer-col col-4 col-12">
+          <ul>
+            <li class="subtitle padding-bottom-20">Maria Granel</li>
             <li>Lojas</li>
             <li>Sobre nós</li>
-          </ul>
-          <h5 class="subtitle">Contactos</h5>
-          <ul>
+            <li class="subtitle padding-top-20 padding-bottom-20">Contactos</li>
             <li>211 351 896 Alvalade</li>
             <li>214 056 077 Campo de Ourique / Loja Online</li>
             <li>geral@mariagranel.com</li>
             <li>loja@mariagranel.com</li>
           </ul>
         </div>
-        <div class="footer-col">
-          <h5 class="subtitle">Ajuda</h5>
+
+        <div class="footer-col col-4 col-12">
           <ul>
-            <li>FAQs</li>
+            <li class="subtitle padding-bottom-20">Ajuda</li>
+            <li>>FAQs</li>
             <li>Termos e Condições</li>
             <li>
               <a href="politicadeprivacidade.html" target="_blank"
                 >Política de Privacidade</a
               >
             </li>
-            <a href="https://www.livroreclamacoes.pt/Inicio/" target="_blank">
-              <img
-                class="legal"
-                src="img/livrodereclamacoes.png"
-                alt="Livro de reclamações"
-              />
-            </a>
+            <li>
+              <a href="https://www.livroreclamacoes.pt/Inicio/" target="_blank">
+                <img
+                  class="legal"
+                  src="/assets/img/livrodereclamacoes.png"
+                  alt="Livro de reclamações"
+                />
+              </a>
+            </li>
           </ul>
         </div>
       </div>

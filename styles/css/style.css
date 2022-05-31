@@ -101,15 +101,12 @@ i.cart-icon {
   padding: 20px 0;
   margin-top: 80px;
 }
-
-.footer-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+.main-footer .footer-content {
+  justify-content: space-evenly;
 }
 
 .social-icons i {
-  font-size: 16px;
+  font-size: 20px;
   padding: 5px;
 }
 
@@ -130,6 +127,10 @@ i.cart-icon {
 .legal {
   max-width: 100px;
   padding-top: 10px;
+}
+
+.login-box {
+  width: 100%;
 }
 
 .login-bg {
@@ -327,7 +328,6 @@ h5 {
   font-weight: 600;
   font-size: 32px;
   text-transform: uppercase;
-  text-align: center;
   color: #e67d3c;
 }
 
@@ -352,13 +352,18 @@ h5 {
   padding: 100px 0;
 }
 
+.padding-bottom-20 {
+  padding-bottom: 20px;
+}
+
+.padding-top-20 {
+  padding-top: 20px;
+}
+
+/*display-flex*/
 .row {
   display: flex;
   flex-wrap: wrap;
-}
-
-.col-3 {
-  width: 25%;
 }
 
 .hero-img {
@@ -410,16 +415,50 @@ h5 {
   max-width: 250px;
 }
 
-.col-3 p {
-  font-size: 16px;
-  font-weight: 600;
-  color: #e67d3c;
-  text-transform: uppercase;
-  text-align: center;
+.pic-card {
+  padding: 20px;
 }
-.col-3 img {
-  max-width: 250px;
-  border-radius: 10%;
+.pic-card img {
+  width: 100%;
+}
+
+.pw-title {
+  text-align: center;
+  align-self: center;
+  color: #e67d3c;
+}
+.pw-title span {
+  font-family: "noto-sans-condensed", sans-serif;
+  font-size: 16px;
+  display: block;
+}
+
+@media screen and (min-width: 480px) {
+  .pic-card {
+    width: 100%;
+  }
+
+  .footer-col {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .pic-card {
+    width: 50%;
+  }
+
+  .footer-col {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .pic-card {
+    width: 25%;
+  }
+
+  .footer-col {
+    width: 25%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

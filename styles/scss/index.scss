@@ -31,7 +31,6 @@ h5 {
   font-weight: $semibold;
   font-size: $big;
   text-transform: uppercase;
-  text-align: center;
   color: $brand;
 }
 .title-secondary {
@@ -51,12 +50,17 @@ h5 {
 .padding-100 {
   padding: 100px 0;
 }
+.padding-bottom-20 {
+  padding-bottom: 20px;
+}
+.padding-top-20 {
+  padding-top: 20px;
+}
+
+/*display-flex*/
 .row {
   display: flex;
   flex-wrap: wrap;
-}
-.col-3 {
-  width: 25%;
 }
 
 //HERO
@@ -110,16 +114,47 @@ h5 {
 }
 
 //PODCAST&WORKSHOP
-.col-3 {
-  p {
-    font-size: $small;
-    font-weight: $semibold;
-    color: $brand;
-    text-transform: uppercase;
-    text-align: center;
-  }
+.pic-card {
+  padding: 20px;
   img {
-    max-width: 250px;
-    border-radius: 10%;
+    width: 100%;
+  }
+}
+.pw-title {
+  text-align: center;
+  align-self: center;
+  color: $brand;
+
+  span {
+    font-family: $body-font;
+    font-size: $small;
+    display: block;
+  }
+}
+
+@media screen and (min-width: $breakpoint-mobile) {
+  .pic-card {
+    width: 100%;
+  }
+  .footer-col {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: $breakpoint-tablet) {
+  .pic-card {
+    width: 50%;
+  }
+  .footer-col {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: $breakpoint-desktop) {
+  .pic-card {
+    width: 25%;
+  }
+  .footer-col {
+    width: 25%;
   }
 }
