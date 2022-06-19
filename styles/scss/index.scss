@@ -63,6 +63,28 @@ h5 {
   flex-wrap: wrap;
 }
 
+/*display-flex*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* oucpar as 12 colunas */
+.col-12 {
+  width: 100%;
+}
+/* oucpar 6 colunas (2cards) */
+.col-6 {
+  width: 50%;
+}
+/* oucpar 4 colunas (3cards) */
+.col-4 {
+  width: 33.33%;
+}
+/* oucpar 3 colunas (4cards)*/
+.col-3 {
+  width: 25%;
+}
+
 //HERO
 .hero-img {
   background-image: url("/assets/img/mgranel-1.jpeg");
@@ -119,6 +141,12 @@ h5 {
   img {
     width: 100%;
   }
+  @media screen and (min-width: $breakpoint-mobile) {
+    width: 100%;
+    @media screen and (min-width: $breakpoint-desktop) {
+      width: 25%;
+    }
+  }
 }
 .pw-title {
   text-align: center;
@@ -129,32 +157,5 @@ h5 {
     font-family: $body-font;
     font-size: $small;
     display: block;
-  }
-}
-
-@media screen and (min-width: $breakpoint-mobile) {
-  .pic-card {
-    width: 100%;
-  }
-  .footer-col {
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: $breakpoint-tablet) {
-  .pic-card {
-    width: 50%;
-  }
-  .footer-col {
-    width: 50%;
-  }
-}
-
-@media screen and (min-width: $breakpoint-desktop) {
-  .pic-card {
-    width: 25%;
-  }
-  .footer-col {
-    width: 25%;
   }
 }
